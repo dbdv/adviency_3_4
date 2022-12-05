@@ -1,0 +1,41 @@
+.form {
+  display: flex;
+  width: 100%;
+  padding: 0.5rem 0;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form input {
+  width: 100%;
+  padding: 0.3rem;
+  border-radius: 5px;
+  border: 1px solid var(--complement-color);
+}
+
+.form input:focus {
+  outline: 1px solid #008b58;
+}
+
+.form button {
+  padding: 0.3rem 0.5rem;
+  display: flex;
+  align-items: center;
+  background: #04a96d;
+  border: none;
+  gap: 0.3rem;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.form button svg {
+  fill: white;
+}
+
+.form button:hover {
+  cursor: pointer;
+  background: #008b58;
+  box-shadow: #008b58 1px 0px 1px 0px;
+}
